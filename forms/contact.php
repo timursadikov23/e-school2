@@ -7,7 +7,7 @@
   */
 
   // Replace contact@example.com with your real receiving email address
-  $receiving_email_address = 'sentmail2024@mail.ru';
+  $receiving_email_address = 'ilearninguz@mail.ru';
 
   if( file_exists($php_email_form = '../assets/vendor/php-email-form/php-email-form.php' )) {
     include( $php_email_form );
@@ -27,8 +27,8 @@
   
   $contact->smtp = array(
     'host' => 'smtp.mail.ru',
-    'username' => 'sentmail2024@mail.ru',
-    'password' => '35rdM2jRaHwuJfh4Gp2r',
+    'username' => 'ilearninguz@mail.ru',
+    'password' => 'urt6bDfB4Q10gp9bvtS3',
     'port' => '587'
   );
   
